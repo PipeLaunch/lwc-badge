@@ -1,0 +1,62 @@
+.slds-theme_blue {
+  background-color: var(--lwc-brandAccessible, #0176d3);
+  color: white;
+}
+
+.slds-theme_blue-dark {
+  background-color: var(--lwc-brandAccessibleActive, #014486);
+  color: white;
+}
+
+.slds-theme_blue-light {
+  background-color: #eef4ff;
+}
+
+.slds-theme_blue-cool {
+  background-color: #014486;
+  color: white;
+}
+
+.slds-theme_green-10 {
+  background-color: #071b12;
+  color: white;
+}
+
+.slds-theme_green-15 {
+  background-color: #0c2912;
+  color: white;
+}
+
+.slds-theme_green-20 {
+  background-color: #0e3522;
+  color: white;
+}
+
+.slds-theme_green-30 {
+  background-color: #194e31;
+  color: white;
+}
+
+.slds-theme_green-40 {
+  background-color: #22683e;
+  color: white;
+}
+
+.slds-theme_green-50 {
+  background-color: #2e844a;
+  color: white;
+}
+
+.slds-theme_green-60 {
+  background-color: #3ba755;
+  color: white;
+}
+
+.ibs-badge {
+  max-width: calc(90vw - 1.5rem);
+  /* max-width: calc(100% - 1.5rem); */
+  /* because default padding is not enough */
+  /* var(--lwc-spacingSmall,0.75rem); */
+  padding-left: var(--lwc-varSpacingHorizontalSmall, 0.75rem);
+  padding-right: var(--lwc-varSpacingHorizontalSmall, 0.75rem);
+}

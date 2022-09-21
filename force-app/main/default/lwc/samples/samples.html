@@ -1,15 +1,43 @@
 <template>
-    <section class="slds-grid slds-wrap slds-gutters grid-gap">
+    <section class="slds-grid slds-wrap slds-gutters">
         <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-2">
-            <lightning-card title="Types">
+            <lightning-card title="Different Styles">
                 <div class="slds-var-p-horizontal_medium slds-var-p-vertical_small">
-                    <h3 class="slds-text-title_bold">Base</h3>
 
-                    test
+                    <div class="grid-gap slds-grid slds-wrap">
+                        <c-lwc-badge label="Default"></c-lwc-badge>
+                        <c-lwc-badge label="darker" type="darker"></c-lwc-badge>
+                        <c-lwc-badge label="lightest" type="lightest"></c-lwc-badge>
+                        <c-lwc-badge label="success" type="success"></c-lwc-badge>
+                        <c-lwc-badge label="warning" type="warning"></c-lwc-badge>
+                        <c-lwc-badge label="error" type="error"></c-lwc-badge>
+                        <c-lwc-badge label="blue" type="blue"></c-lwc-badge>
+                        <c-lwc-badge label="caps" type="caps"></c-lwc-badge>
+                        <c-lwc-badge label="blue-dark" type="blue-dark"></c-lwc-badge>
+                        <c-lwc-badge label="blue-light" type="blue-light"></c-lwc-badge>
+                        <c-lwc-badge label="blue-cool" type="blue-cool"></c-lwc-badge>
+                        <c-lwc-badge label="green-20" type="green-20"></c-lwc-badge>
+                    </div>
+
                 </div>
             </lightning-card>
         </div>
 
-        
+        <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-2">
+            <lightning-card title="Extra options">
+                <div class="slds-var-p-horizontal_medium slds-var-p-vertical_small">
+
+                    <div class="grid-gap slds-grid slds-wrap">
+                        <c-lwc-badge label="With help text" helptext="Sample help text"></c-lwc-badge>
+                        <c-lwc-badge label="With icon" icon-name="utility:date_input"></c-lwc-badge>
+                        <c-lwc-badge label="Error with icon" type="error" icon-name="utility:warning"></c-lwc-badge>
+
+                    </div>
+
+                </div>
+            </lightning-card>
+        </div>
+
+
     </section>
 </template>
