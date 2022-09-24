@@ -1,37 +1,45 @@
 <template>
     <section class="slds-grid slds-wrap slds-gutters">
-        <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-2">
+        <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-2
+            slds-var-m-bottom_medium">
             <lightning-card title="Different Styles">
-                <div class="slds-var-p-horizontal_medium slds-var-p-vertical_small">
+                <div class="slds-var-p-horizontal_medium
+                    slds-var-p-vertical_small">
 
                     <div class="grid-gap slds-grid slds-wrap">
                         <c-lwc-badge label="Default"></c-lwc-badge>
+                        <c-lwc-badge label="caps" type="caps"></c-lwc-badge>
                         <c-lwc-badge label="darker" type="darker"></c-lwc-badge>
                         <c-lwc-badge label="lightest" type="lightest"></c-lwc-badge>
                         <c-lwc-badge label="success" type="success"></c-lwc-badge>
                         <c-lwc-badge label="warning" type="warning"></c-lwc-badge>
                         <c-lwc-badge label="error" type="error"></c-lwc-badge>
                         <c-lwc-badge label="blue" type="blue"></c-lwc-badge>
-                        <c-lwc-badge label="caps" type="caps"></c-lwc-badge>
                         <c-lwc-badge label="blue-dark" type="blue-dark"></c-lwc-badge>
                         <c-lwc-badge label="blue-light" type="blue-light"></c-lwc-badge>
                         <c-lwc-badge label="blue-cool" type="blue-cool"></c-lwc-badge>
-                        <c-lwc-badge label="green-20" type="green-20"></c-lwc-badge>
                     </div>
 
                 </div>
             </lightning-card>
         </div>
 
-        <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-2">
+
+        <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-2
+            slds-var-m-bottom_medium">
             <lightning-card title="Extra options">
-                <div class="slds-var-p-horizontal_medium slds-var-p-vertical_small">
+                <div class="slds-var-p-horizontal_medium
+                    slds-var-p-vertical_small">
 
                     <div class="grid-gap slds-grid slds-wrap">
-                        <c-lwc-badge label="With help text" helptext="Sample help text"></c-lwc-badge>
+                        <c-lwc-badge label="With help text" helptext="Sample
+                            help text"></c-lwc-badge>
                         <c-lwc-badge label="With icon" icon-name="utility:date_input"></c-lwc-badge>
                         <c-lwc-badge label="Error with icon" type="error" icon-name="utility:warning"></c-lwc-badge>
-
+                        <c-lwc-badge label="With min width" min-width="12rem"></c-lwc-badge>
+                        <c-lwc-badge label="With max width: this is a long
+                            string of text" max-width="6rem">
+                        </c-lwc-badge>
                     </div>
 
                 </div>
@@ -39,5 +47,184 @@
         </div>
 
 
+        <div class="slds-col slds-size_1-of-1 slds-var-m-bottom_medium">
+            <lightning-card title="SLDS Color Palette">
+                <div class="slds-var-p-horizontal_medium
+                    slds-var-p-vertical_small">
+
+                    <div class="grid-gap slds-grid slds-wrap">
+                        <c-lwc-badge label="gray-2" type="gray-2"></c-lwc-badge>
+                        <c-lwc-badge label="gray-3" type="gray-3"></c-lwc-badge>
+                        <c-lwc-badge label="gray-4" type="gray-4"></c-lwc-badge>
+                        <c-lwc-badge label="gray-4" type="gray-4"></c-lwc-badge>
+                        <c-lwc-badge label="gray-5" type="gray-5"></c-lwc-badge>
+                        <c-lwc-badge label="gray-6" type="gray-6"></c-lwc-badge>
+                        <c-lwc-badge label="gray-7" type="gray-7"></c-lwc-badge>
+                        <c-lwc-badge label="gray-8" type="gray-8"></c-lwc-badge>
+                        <c-lwc-badge label="gray-9" type="gray-9"></c-lwc-badge>
+                        <c-lwc-badge label="gray-10" type="gray-10"></c-lwc-badge>
+                        <c-lwc-badge label="gray-11" type="gray-11"></c-lwc-badge>
+                        <c-lwc-badge label="gray-12" type="gray-12"></c-lwc-badge>
+                        <c-lwc-badge label="gray-13" type="gray-13"></c-lwc-badge>
+                        <c-lwc-badge label="blue-10" type="blue-10"></c-lwc-badge>
+                        <c-lwc-badge label="blue-15" type="blue-15"></c-lwc-badge>
+                        <c-lwc-badge label="blue-20" type="blue-20"></c-lwc-badge>
+                        <c-lwc-badge label="blue-30" type="blue-30"></c-lwc-badge>
+                        <c-lwc-badge label="blue-40" type="blue-40"></c-lwc-badge>
+                        <c-lwc-badge label="blue-50" type="blue-50"></c-lwc-badge>
+                        <c-lwc-badge label="blue-60" type="blue-60"></c-lwc-badge>
+                        <c-lwc-badge label="blue-65" type="blue-65"></c-lwc-badge>
+                        <c-lwc-badge label="blue-70" type="blue-70"></c-lwc-badge>
+                        <c-lwc-badge label="blue-80" type="blue-80"></c-lwc-badge>
+                        <c-lwc-badge label="blue-90" type="blue-90"></c-lwc-badge>
+                        <c-lwc-badge label="blue-95" type="blue-95"></c-lwc-badge>
+                        <c-lwc-badge label="cloud-blue-10" type="cloud-blue-10"></c-lwc-badge>
+                        <c-lwc-badge label="cloud-blue-15" type="cloud-blue-15"></c-lwc-badge>
+                        <c-lwc-badge label="cloud-blue-20" type="cloud-blue-20"></c-lwc-badge>
+                        <c-lwc-badge label="cloud-blue-30" type="cloud-blue-30"></c-lwc-badge>
+                        <c-lwc-badge label="cloud-blue-40" type="cloud-blue-40"></c-lwc-badge>
+                        <c-lwc-badge label="cloud-blue-50" type="cloud-blue-50"></c-lwc-badge>
+                        <c-lwc-badge label="cloud-blue-60" type="cloud-blue-60"></c-lwc-badge>
+                        <c-lwc-badge label="cloud-blue-65" type="cloud-blue-65"></c-lwc-badge>
+                        <c-lwc-badge label="cloud-blue-70" type="cloud-blue-70"></c-lwc-badge>
+                        <c-lwc-badge label="cloud-blue-80" type="cloud-blue-80"></c-lwc-badge>
+                        <c-lwc-badge label="cloud-blue-90" type="cloud-blue-90"></c-lwc-badge>
+                        <c-lwc-badge label="cloud-blue-95" type="cloud-blue-95"></c-lwc-badge>
+                        <c-lwc-badge label="green-10" type="green-10"></c-lwc-badge>
+                        <c-lwc-badge label="green-15" type="green-15"></c-lwc-badge>
+                        <c-lwc-badge label="green-20" type="green-20"></c-lwc-badge>
+                        <c-lwc-badge label="green-30" type="green-30"></c-lwc-badge>
+                        <c-lwc-badge label="green-40" type="green-40"></c-lwc-badge>
+                        <c-lwc-badge label="green-50" type="green-50"></c-lwc-badge>
+                        <c-lwc-badge label="green-60" type="green-60"></c-lwc-badge>
+                        <c-lwc-badge label="green-65" type="green-65"></c-lwc-badge>
+                        <c-lwc-badge label="green-70" type="green-70"></c-lwc-badge>
+                        <c-lwc-badge label="green-80" type="green-80"></c-lwc-badge>
+                        <c-lwc-badge label="green-90" type="green-90"></c-lwc-badge>
+                        <c-lwc-badge label="green-95" type="green-95"></c-lwc-badge>
+                        <c-lwc-badge label="hot-orange-10" type="hot-orange-10"></c-lwc-badge>
+                        <c-lwc-badge label="hot-orange-15" type="hot-orange-15"></c-lwc-badge>
+                        <c-lwc-badge label="hot-orange-20" type="hot-orange-20"></c-lwc-badge>
+                        <c-lwc-badge label="hot-orange-30" type="hot-orange-30"></c-lwc-badge>
+                        <c-lwc-badge label="hot-orange-40" type="hot-orange-40"></c-lwc-badge>
+                        <c-lwc-badge label="hot-orange-50" type="hot-orange-50"></c-lwc-badge>
+                        <c-lwc-badge label="hot-orange-60" type="hot-orange-60"></c-lwc-badge>
+                        <c-lwc-badge label="hot-orange-65" type="hot-orange-65"></c-lwc-badge>
+                        <c-lwc-badge label="hot-orange-70" type="hot-orange-70"></c-lwc-badge>
+                        <c-lwc-badge label="hot-orange-80" type="hot-orange-80"></c-lwc-badge>
+                        <c-lwc-badge label="hot-orange-90" type="hot-orange-90"></c-lwc-badge>
+                        <c-lwc-badge label="hot-orange-95" type="hot-orange-95"></c-lwc-badge>
+                        <c-lwc-badge label="indigo-10" type="indigo-10"></c-lwc-badge>
+                        <c-lwc-badge label="indigo-15" type="indigo-15"></c-lwc-badge>
+                        <c-lwc-badge label="indigo-20" type="indigo-20"></c-lwc-badge>
+                        <c-lwc-badge label="indigo-30" type="indigo-30"></c-lwc-badge>
+                        <c-lwc-badge label="indigo-40" type="indigo-40"></c-lwc-badge>
+                        <c-lwc-badge label="indigo-50" type="indigo-50"></c-lwc-badge>
+                        <c-lwc-badge label="indigo-60" type="indigo-60"></c-lwc-badge>
+                        <c-lwc-badge label="indigo-65" type="indigo-65"></c-lwc-badge>
+                        <c-lwc-badge label="indigo-70" type="indigo-70"></c-lwc-badge>
+                        <c-lwc-badge label="indigo-80" type="indigo-80"></c-lwc-badge>
+                        <c-lwc-badge label="indigo-90" type="indigo-90"></c-lwc-badge>
+                        <c-lwc-badge label="indigo-95" type="indigo-95"></c-lwc-badge>
+                        <c-lwc-badge label="neutral-10" type="neutral-10"></c-lwc-badge>
+                        <c-lwc-badge label="neutral-20" type="neutral-20"></c-lwc-badge>
+                        <c-lwc-badge label="neutral-30" type="neutral-30"></c-lwc-badge>
+                        <c-lwc-badge label="neutral-40" type="neutral-40"></c-lwc-badge>
+                        <c-lwc-badge label="neutral-50" type="neutral-50"></c-lwc-badge>
+                        <c-lwc-badge label="neutral-60" type="neutral-60"></c-lwc-badge>
+                        <c-lwc-badge label="neutral-70" type="neutral-70"></c-lwc-badge>
+                        <c-lwc-badge label="neutral-80" type="neutral-80"></c-lwc-badge>
+                        <c-lwc-badge label="neutral-90" type="neutral-90"></c-lwc-badge>
+                        <c-lwc-badge label="neutral-95" type="neutral-95"></c-lwc-badge>
+                        <c-lwc-badge label="neutral-100" type="neutral-100"></c-lwc-badge>
+                        <c-lwc-badge label="orange-10" type="orange-10"></c-lwc-badge>
+                        <c-lwc-badge label="orange-15" type="orange-15"></c-lwc-badge>
+                        <c-lwc-badge label="orange-20" type="orange-20"></c-lwc-badge>
+                        <c-lwc-badge label="orange-30" type="orange-30"></c-lwc-badge>
+                        <c-lwc-badge label="orange-40" type="orange-40"></c-lwc-badge>
+                        <c-lwc-badge label="orange-50" type="orange-50"></c-lwc-badge>
+                        <c-lwc-badge label="orange-60" type="orange-60"></c-lwc-badge>
+                        <c-lwc-badge label="orange-65" type="orange-65"></c-lwc-badge>
+                        <c-lwc-badge label="orange-70" type="orange-70"></c-lwc-badge>
+                        <c-lwc-badge label="orange-80" type="orange-80"></c-lwc-badge>
+                        <c-lwc-badge label="orange-90" type="orange-90"></c-lwc-badge>
+                        <c-lwc-badge label="orange-95" type="orange-95"></c-lwc-badge>
+                        <c-lwc-badge label="pink-10" type="pink-10"></c-lwc-badge>
+                        <c-lwc-badge label="pink-15" type="pink-15"></c-lwc-badge>
+                        <c-lwc-badge label="pink-20" type="pink-20"></c-lwc-badge>
+                        <c-lwc-badge label="pink-30" type="pink-30"></c-lwc-badge>
+                        <c-lwc-badge label="pink-40" type="pink-40"></c-lwc-badge>
+                        <c-lwc-badge label="pink-50" type="pink-50"></c-lwc-badge>
+                        <c-lwc-badge label="pink-60" type="pink-60"></c-lwc-badge>
+                        <c-lwc-badge label="pink-65" type="pink-65"></c-lwc-badge>
+                        <c-lwc-badge label="pink-70" type="pink-70"></c-lwc-badge>
+                        <c-lwc-badge label="pink-80" type="pink-80"></c-lwc-badge>
+                        <c-lwc-badge label="pink-90" type="pink-90"></c-lwc-badge>
+                        <c-lwc-badge label="pink-95" type="pink-95"></c-lwc-badge>
+                        <c-lwc-badge label="purple-10" type="purple-10"></c-lwc-badge>
+                        <c-lwc-badge label="purple-15" type="purple-15"></c-lwc-badge>
+                        <c-lwc-badge label="purple-20" type="purple-20"></c-lwc-badge>
+                        <c-lwc-badge label="purple-30" type="purple-30"></c-lwc-badge>
+                        <c-lwc-badge label="purple-40" type="purple-40"></c-lwc-badge>
+                        <c-lwc-badge label="purple-50" type="purple-50"></c-lwc-badge>
+                        <c-lwc-badge label="purple-60" type="purple-60"></c-lwc-badge>
+                        <c-lwc-badge label="purple-65" type="purple-65"></c-lwc-badge>
+                        <c-lwc-badge label="purple-70" type="purple-70"></c-lwc-badge>
+                        <c-lwc-badge label="purple-80" type="purple-80"></c-lwc-badge>
+                        <c-lwc-badge label="purple-90" type="purple-90"></c-lwc-badge>
+                        <c-lwc-badge label="purple-95" type="purple-95"></c-lwc-badge>
+                        <c-lwc-badge label="red-10" type="red-10"></c-lwc-badge>
+                        <c-lwc-badge label="red-15" type="red-15"></c-lwc-badge>
+                        <c-lwc-badge label="red-20" type="red-20"></c-lwc-badge>
+                        <c-lwc-badge label="red-30" type="red-30"></c-lwc-badge>
+                        <c-lwc-badge label="red-40" type="red-40"></c-lwc-badge>
+                        <c-lwc-badge label="red-50" type="red-50"></c-lwc-badge>
+                        <c-lwc-badge label="red-60" type="red-60"></c-lwc-badge>
+                        <c-lwc-badge label="red-65" type="red-65"></c-lwc-badge>
+                        <c-lwc-badge label="red-70" type="red-70"></c-lwc-badge>
+                        <c-lwc-badge label="red-80" type="red-80"></c-lwc-badge>
+                        <c-lwc-badge label="red-90" type="red-90"></c-lwc-badge>
+                        <c-lwc-badge label="red-95" type="red-95"></c-lwc-badge>
+                        <c-lwc-badge label="teal-10" type="teal-10"></c-lwc-badge>
+                        <c-lwc-badge label="teal-15" type="teal-15"></c-lwc-badge>
+                        <c-lwc-badge label="teal-20" type="teal-20"></c-lwc-badge>
+                        <c-lwc-badge label="teal-30" type="teal-30"></c-lwc-badge>
+                        <c-lwc-badge label="teal-40" type="teal-40"></c-lwc-badge>
+                        <c-lwc-badge label="teal-50" type="teal-50"></c-lwc-badge>
+                        <c-lwc-badge label="teal-60" type="teal-60"></c-lwc-badge>
+                        <c-lwc-badge label="teal-65" type="teal-65"></c-lwc-badge>
+                        <c-lwc-badge label="teal-70" type="teal-70"></c-lwc-badge>
+                        <c-lwc-badge label="teal-80" type="teal-80"></c-lwc-badge>
+                        <c-lwc-badge label="teal-90" type="teal-90"></c-lwc-badge>
+                        <c-lwc-badge label="teal-95" type="teal-95"></c-lwc-badge>
+                        <c-lwc-badge label="violet-10" type="violet-10"></c-lwc-badge>
+                        <c-lwc-badge label="violet-15" type="violet-15"></c-lwc-badge>
+                        <c-lwc-badge label="violet-20" type="violet-20"></c-lwc-badge>
+                        <c-lwc-badge label="violet-30" type="violet-30"></c-lwc-badge>
+                        <c-lwc-badge label="violet-40" type="violet-40"></c-lwc-badge>
+                        <c-lwc-badge label="violet-50" type="violet-50"></c-lwc-badge>
+                        <c-lwc-badge label="violet-60" type="violet-60"></c-lwc-badge>
+                        <c-lwc-badge label="violet-65" type="violet-65"></c-lwc-badge>
+                        <c-lwc-badge label="violet-70" type="violet-70"></c-lwc-badge>
+                        <c-lwc-badge label="violet-80" type="violet-80"></c-lwc-badge>
+                        <c-lwc-badge label="violet-90" type="violet-90"></c-lwc-badge>
+                        <c-lwc-badge label="violet-95" type="violet-95"></c-lwc-badge>
+                        <c-lwc-badge label="yellow-10" type="yellow-10"></c-lwc-badge>
+                        <c-lwc-badge label="yellow-15" type="yellow-15"></c-lwc-badge>
+                        <c-lwc-badge label="yellow-20" type="yellow-20"></c-lwc-badge>
+                        <c-lwc-badge label="yellow-30" type="yellow-30"></c-lwc-badge>
+                        <c-lwc-badge label="yellow-40" type="yellow-40"></c-lwc-badge>
+                        <c-lwc-badge label="yellow-50" type="yellow-50"></c-lwc-badge>
+                        <c-lwc-badge label="yellow-60" type="yellow-60"></c-lwc-badge>
+                        <c-lwc-badge label="yellow-65" type="yellow-65"></c-lwc-badge>
+                        <c-lwc-badge label="yellow-70" type="yellow-70"></c-lwc-badge>
+                        <c-lwc-badge label="yellow-80" type="yellow-80"></c-lwc-badge>
+                        <c-lwc-badge label="yellow-90" type="yellow-90"></c-lwc-badge>
+                        <c-lwc-badge label="yellow-95" type="yellow-95"></c-lwc-badge>
+                    </div>
+
+                </div>
+            </lightning-card>
+        </div>
     </section>
 </template>

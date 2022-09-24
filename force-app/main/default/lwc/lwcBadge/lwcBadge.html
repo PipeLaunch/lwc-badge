@@ -1,12 +1,14 @@
 <template>
     <template if:true={label}>
-        <span data-selector="ibs-badge" class={computeClasses}>
+        <span class={computeClasses} style={computeStyles}>
             <lightning-icon if:true={iconName} icon-name={iconName} variant={computeIconVariant} size="x-small"
                 class="slds-var-p-right_xx-small">
             </lightning-icon>
             <span class="slds-truncate" title={label}>{label}</span>
         </span>
-        <lightning-helptext if:true={helptext} content={helptext} class="slds-p-left_xx-small slds-var-p-right_small">
+
+        <lightning-helptext if:true={helptext} content={helptext}
+            class="slds-var-p-left_xx-small slds-var-p-right_small">
         </lightning-helptext>
     </template>
 </template>

@@ -1,4 +1,4 @@
-# LWC Badge TODO
+# LWC Badge
 
 ![sample](sample.png "sample")
 
@@ -12,6 +12,7 @@ Generic SLDS LWC badge component
 -   Support all the SLDS variants
 -   Integrated on a single component (easy to copy to multiple projects)
 -   New custom types based on salesforce UI
+-   SLDS official color palette support
 
 ## Instructions
 
@@ -35,3 +36,7 @@ Everything was developed in a single LWC, so you just need a new single componen
 -   Edit the page to preview on mobile devices or login with your mobile device (check the `password.env` file)
 
 ## References
+
+https://www.lightningdesignsystem.com/design-tokens
+
+https://www.lightningdesignsystem.com/components/badges
