@@ -8,7 +8,7 @@ Generic SLDS LWC badge component
 
 ## Features
 
--   Native SLDS Style:
+-   Native SLDS Style
 -   Support all the SLDS variants
 -   Integrated on a single component (easy to copy to multiple projects)
 -   New custom types based on salesforce UI
@@ -40,3 +40,5 @@ Everything was developed in a single LWC, so you just need a new single componen
 https://www.lightningdesignsystem.com/design-tokens
 
 https://www.lightningdesignsystem.com/components/badges
+
+https://developer.salesforce.com/docs/component-library/bundle/lightning-badge/example
